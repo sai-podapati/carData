@@ -31,7 +31,7 @@ public class myFirstController {
 	@RequestMapping("/wishes")
 	public String sayWishes(){
 		System.out.println(utils.getNames().toString());
-		return "Good luck for your career";
+		return "Good luck for your career satya";
 	}
 	
 	@RequestMapping("/download1")
